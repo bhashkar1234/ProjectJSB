@@ -26,6 +26,9 @@ window.onload = function() {
             tile.addEventListener("dragleave", dragLeave);  //dragged image leaving anohter image
             tile.addEventListener("drop", dragDrop);        //drag an image over another image, drop the image
             tile.addEventListener("dragend", dragEnd);      //after drag drop, swap the two tiles
+            
+            tile.addEventListener('touchmove', dragStart)
+            tile.addEventListener('touchend', dragEnd)
 
             document.getElementById("board").append(tile);
 
