@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0c67ae;
+}
+
+#title {
+    height: 150px;
+    width: 400px;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 10px solid #0c67ae;
+
+    /* margin : 0 auto; */
+    margin-left: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0c67ae;
+    
+}
+.m1{
+    /* border: 4px solid red; */
+    width: 30vw;
+    float: left;
+    margin: 120px;
+}
+#turn{
+
+    border: 2px solid rgb(0, 255, 55);
+    /* padding-left: -10px; */
+    padding-right: 10px;
+}
+#main{
+    height:100%;
+    width:100%;
+    border: 10px solid yellowgreen;
+    display:flex;
+} 
+.subm1{
+    border: 10px solid rgb(8, 8, 8);
+}
+.pura{
+
+    border: 4px solid yellow;
+}
+#para{
+    height:100%;
+    border:2px solid red;
+}
+ ul{list-style-type: none;} */
+
+ 
+  #clues{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    .sahi{
+        border: 2px solid red;
+        background-color: rgb(222, 222, 225);
+    }
+h2{
+    font-style: italic;
+}
+
+#btnRule{
+    color: rgb(6, 11, 1);
+    background-color: aquamarine;
+    padding: 10px;
+    
+}
+#niyam{
+    font-size: large;
+    padding: 4px;
+}
+.btn{
+    color: black;
+    font-size: large;
+}
